@@ -42,7 +42,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 用户接口
-
  */
 @RestController
 @RequestMapping("/user")
@@ -150,9 +149,6 @@ public class UserController {
         return ResultUtils.success(userService.getLoginUserVO(user));
     }
 
-    // endregion
-
-    // region 增删改查
 
     /**
      * 创建用户
